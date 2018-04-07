@@ -1,0 +1,105 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "BookmarksTest",
+        "children" : [ {
+          "name" : "bookmarksTest",
+          "uid" : "12de644cb0950c6d",
+          "parentUid" : "fdf95239ba8d70c4f50ba8e3265e3feb",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1522958832007,
+            "stop" : 1522958832031,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fdf95239ba8d70c4f50ba8e3265e3feb"
+      }, {
+        "name" : "LogInLogOutTest",
+        "children" : [ {
+          "name" : "logInLogOutTest",
+          "uid" : "4f8ac94598402fa3",
+          "parentUid" : "df6c57630013dc1280c1e020de950590",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1522958832203,
+            "stop" : 1522958832204,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "df6c57630013dc1280c1e020de950590"
+      }, {
+        "name" : "PriceFilterTest",
+        "children" : [ {
+          "name" : "priceFilterTest",
+          "uid" : "a974837659d04e9",
+          "parentUid" : "0407dada8fd1e703e79b1b02473f6a5a",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1522958832210,
+            "stop" : 1522958832211,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0407dada8fd1e703e79b1b02473f6a5a"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  }, {
+    "name" : "E-katalog",
+    "children" : [ {
+      "name" : "LogInLogOutTest",
+      "children" : [ {
+        "name" : "LogInLogOutTest",
+        "children" : [ {
+          "name" : "logInLogOutTest",
+          "uid" : "9a9a3fa11bcdd944",
+          "parentUid" : "b2ea4ab44c3b83bf3f95e74cd4f6f1c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1522959088287,
+            "stop" : 1522959092278,
+            "duration" : 3991
+          },
+          "flaky" : false,
+          "parameters" : [ "TestNg", "qwerqwer123", "TestNg", "qwerqwer123" ]
+        } ],
+        "uid" : "b2ea4ab44c3b83bf3f95e74cd4f6f1c0"
+      } ],
+      "uid" : "7f02346e7eb2cb7364b9edf7a50c70e3"
+    }, {
+      "name" : "BookmarksTest",
+      "children" : [ {
+        "name" : "BookmarksTest",
+        "children" : [ {
+          "name" : "bookmarksTest",
+          "uid" : "4ff35e544c9ee7c4",
+          "parentUid" : "2fea406c270ca096398e040a301e8103",
+          "status" : "passed",
+          "time" : {
+            "start" : 1522959121477,
+            "stop" : 1522959143314,
+            "duration" : 21837
+          },
+          "flaky" : false,
+          "parameters" : [ "TestNg", "qwerqwer123", "Sony HDR-AZ1VW", "Sony HDR-AZ1VW", "TestNg", "qwerqwer123" ]
+        } ],
+        "uid" : "2fea406c270ca096398e040a301e8103"
+      } ],
+      "uid" : "bb6f3e521c90f02a44c0e7f5f401ecdf"
+    } ],
+    "uid" : "8d22e6657d43f6fac59eb4e04a36f748"
+  } ],
+  "name" : "suites"
+}

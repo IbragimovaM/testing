@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "pc",
+    "children" : [ {
+      "name" : "27324@pc.main(1)",
+      "children" : [ {
+        "name" : "logInLogOutTest",
+        "uid" : "9a9a3fa11bcdd944",
+        "parentUid" : "d8247440de468eff1d34fb917b4f3a6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1522959088287,
+          "stop" : 1522959092278,
+          "duration" : 3991
+        },
+        "flaky" : false,
+        "parameters" : [ "TestNg", "qwerqwer123", "TestNg", "qwerqwer123" ]
+      }, {
+        "name" : "bookmarksTest",
+        "uid" : "4ff35e544c9ee7c4",
+        "parentUid" : "d8247440de468eff1d34fb917b4f3a6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1522959121477,
+          "stop" : 1522959143314,
+          "duration" : 21837
+        },
+        "flaky" : false,
+        "parameters" : [ "TestNg", "qwerqwer123", "Sony HDR-AZ1VW", "Sony HDR-AZ1VW", "TestNg", "qwerqwer123" ]
+      } ],
+      "uid" : "d8247440de468eff1d34fb917b4f3a6a"
+    }, {
+      "name" : "27144@pc.main(1)",
+      "children" : [ {
+        "name" : "priceFilterTest",
+        "uid" : "a974837659d04e9",
+        "parentUid" : "a69f222d9b43841a6a3cd0b47d7e169e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1522958832210,
+          "stop" : 1522958832211,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logInLogOutTest",
+        "uid" : "4f8ac94598402fa3",
+        "parentUid" : "a69f222d9b43841a6a3cd0b47d7e169e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1522958832203,
+          "stop" : 1522958832204,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "bookmarksTest",
+        "uid" : "12de644cb0950c6d",
+        "parentUid" : "a69f222d9b43841a6a3cd0b47d7e169e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1522958832007,
+          "stop" : 1522958832031,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a69f222d9b43841a6a3cd0b47d7e169e"
+    } ],
+    "uid" : "04a91c94ab21e54e685c0d0a3f7e6ec5"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","LogInLogOutTest.logInLogOutTest","3991","Вход в аккаунт"
+"passed","BookmarksTest.bookmarksTest","21837","Добавление товара в закладки и история посещений"
+"skipped","PriceFilterTest.priceFilterTest","1","Поиск с ограничением по цене"
+"skipped","LogInLogOutTest.logInLogOutTest","1","Вход в аккаунт"
+"skipped","BookmarksTest.bookmarksTest","24","Добавление товара в закладки и история посещений"

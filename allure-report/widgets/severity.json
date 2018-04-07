@@ -1,0 +1,51 @@
+[ {
+  "uid" : "a974837659d04e9",
+  "name" : "priceFilterTest",
+  "time" : {
+    "start" : 1522958832210,
+    "stop" : 1522958832211,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "12de644cb0950c6d",
+  "name" : "bookmarksTest",
+  "time" : {
+    "start" : 1522958832007,
+    "stop" : 1522958832031,
+    "duration" : 24
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9a9a3fa11bcdd944",
+  "name" : "logInLogOutTest",
+  "time" : {
+    "start" : 1522959088287,
+    "stop" : 1522959092278,
+    "duration" : 3991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f8ac94598402fa3",
+  "name" : "logInLogOutTest",
+  "time" : {
+    "start" : 1522958832203,
+    "stop" : 1522958832204,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4ff35e544c9ee7c4",
+  "name" : "bookmarksTest",
+  "time" : {
+    "start" : 1522959121477,
+    "stop" : 1522959143314,
+    "duration" : 21837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

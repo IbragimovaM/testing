@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "bookmarksTest",
+    "uid" : "12de644cb0950c6d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1522958832007,
+      "stop" : 1522958832031,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logInLogOutTest",
+    "uid" : "4f8ac94598402fa3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1522958832203,
+      "stop" : 1522958832204,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "priceFilterTest",
+    "uid" : "a974837659d04e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1522958832210,
+      "stop" : 1522958832211,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logInLogOutTest",
+    "uid" : "9a9a3fa11bcdd944",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1522959088287,
+      "stop" : 1522959092278,
+      "duration" : 3991
+    },
+    "flaky" : false,
+    "parameters" : [ "TestNg", "qwerqwer123", "TestNg", "qwerqwer123" ]
+  }, {
+    "name" : "bookmarksTest",
+    "uid" : "4ff35e544c9ee7c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1522959121477,
+      "stop" : 1522959143314,
+      "duration" : 21837
+    },
+    "flaky" : false,
+    "parameters" : [ "TestNg", "qwerqwer123", "Sony HDR-AZ1VW", "Sony HDR-AZ1VW", "TestNg", "qwerqwer123" ]
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-07T22:19:13Z" name="E-katalog" finished-at="2018-04-07T22:20:14Z" duration-ms="60917">
+    <groups>
+    </groups>
+    <test started-at="2018-04-07T22:19:13Z" name="LogInLogOutTest" finished-at="2018-04-07T22:19:30Z" duration-ms="16815">
+      <class name="LogInLogOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInLogOutTest@2ab5afc7]" started-at="2018-04-08T02:19:13Z" name="setUp" finished-at="2018-04-08T02:19:26Z" duration-ms="13064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInLogOutTest(java.lang.String, java.lang.String)[pri:0, instance:LogInLogOutTest@2ab5afc7]" started-at="2018-04-08T02:19:26Z" name="logInLogOutTest" finished-at="2018-04-08T02:19:30Z" duration-ms="3043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerqwer123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLogOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInLogOutTest@2ab5afc7]" started-at="2018-04-08T02:19:30Z" name="tearDown" finished-at="2018-04-08T02:19:30Z" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LogInLogOutTest -->
+    </test> <!-- LogInLogOutTest -->
+    <test started-at="2018-04-07T22:19:30Z" name="BookmarksTest" finished-at="2018-04-07T22:19:58Z" duration-ms="28170">
+      <class name="BookmarksTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:BookmarksTest@6014a9ba]" started-at="2018-04-08T02:19:30Z" name="setUp" finished-at="2018-04-08T02:19:36Z" duration-ms="5661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookmarksTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BookmarksTest@6014a9ba]" started-at="2018-04-08T02:19:36Z" name="bookmarksTest" finished-at="2018-04-08T02:19:58Z" duration-ms="21910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerqwer123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sony HDR-AZ1VW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookmarksTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BookmarksTest@6014a9ba]" started-at="2018-04-08T02:19:58Z" name="tearDown" finished-at="2018-04-08T02:19:58Z" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BookmarksTest -->
+    </test> <!-- BookmarksTest -->
+    <test started-at="2018-04-07T22:19:58Z" name="PriceFilterTest" finished-at="2018-04-07T22:20:14Z" duration-ms="15886">
+      <class name="PriceFilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PriceFilterTest@37b57b54]" started-at="2018-04-08T02:19:58Z" name="setUp" finished-at="2018-04-08T02:20:06Z" duration-ms="7319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="priceFilterTest(int)[pri:0, instance:PriceFilterTest@37b57b54]" started-at="2018-04-08T02:20:06Z" name="priceFilterTest" finished-at="2018-04-08T02:20:14Z" duration-ms="7970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceFilterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PriceFilterTest@37b57b54]" started-at="2018-04-08T02:20:14Z" name="tearDown" finished-at="2018-04-08T02:20:14Z" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PriceFilterTest -->
+    </test> <!-- PriceFilterTest -->
+  </suite> <!-- E-katalog -->
+</testng-results>

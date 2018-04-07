@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-E-katalog" class="navigator-link">
+              <span class="suite-name border-passed">E-katalog</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-E-katalog" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-E-katalog" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-E-katalog" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-E-katalog" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-E-katalog" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-E-katalog" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-E-katalog" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-E-katalog" class="hide-methods passed suite-E-katalog"> (hide)</a> <!-- hide-methods passed suite-E-katalog -->
+                      <a href="#" panel-name="suite-E-katalog" class="show-methods passed suite-E-katalog"> (show)</a> <!-- show-methods passed suite-E-katalog -->
+                    </span>
+                    <div class="method-list-content passed suite-E-katalog">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E-katalog" title="BookmarksTest" class="method navigator-link" hash-for-method="bookmarksTest(TestNg, qwerqwer123, Sony HDR-AZ1VW)">bookmarksTest(TestNg, qwerqwer123, Sony HDR-AZ1VW)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E-katalog" title="LogInLogOutTest" class="method navigator-link" hash-for-method="logInLogOutTest(TestNg, qwerqwer123)">logInLogOutTest(TestNg, qwerqwer123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E-katalog" title="PriceFilterTest" class="method navigator-link" hash-for-method="priceFilterTest(2000)">priceFilterTest(2000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-E-katalog -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-E-katalog" class="panel E-katalog">
+          <div class="suite-E-katalog-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BookmarksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookmarksTest(TestNg, qwerqwer123, Sony HDR-AZ1VW)">
+                  </a> <!-- bookmarksTest(TestNg, qwerqwer123, Sony HDR-AZ1VW) -->
+                  <span class="method-name">bookmarksTest</span>
+                  <span class="parameters">(TestNg, qwerqwer123, Sony HDR-AZ1VW)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E-katalog-class-passed -->
+          <div class="suite-E-katalog-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PriceFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceFilterTest(2000)">
+                  </a> <!-- priceFilterTest(2000) -->
+                  <span class="method-name">priceFilterTest</span>
+                  <span class="parameters">(2000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E-katalog-class-passed -->
+          <div class="suite-E-katalog-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LogInLogOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInLogOutTest(TestNg, qwerqwer123)">
+                  </a> <!-- logInLogOutTest(TestNg, qwerqwer123) -->
+                  <span class="method-name">logInLogOutTest</span>
+                  <span class="parameters">(TestNg, qwerqwer123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E-katalog-class-passed -->
+        </div> <!-- panel E-katalog -->
+        <div panel-name="test-xml-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/masha/testing/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;E-katalog&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;qwerqwer123&quot;/&gt;
+  &lt;parameter name=&quot;login&quot; value=&quot;TestNg&quot;/&gt;
+  &lt;test name=&quot;LogInLogOutTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LogInLogOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInLogOutTest --&gt;
+  &lt;test name=&quot;BookmarksTest&quot;&gt;
+    &lt;parameter name=&quot;itemName&quot; value=&quot;Sony HDR-AZ1VW&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BookmarksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookmarksTest --&gt;
+  &lt;test name=&quot;PriceFilterTest&quot;&gt;
+    &lt;parameter name=&quot;maxPrice&quot; value=&quot;2000&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PriceFilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PriceFilterTest --&gt;
+&lt;/suite&gt; &lt;!-- E-katalog --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for E-katalog</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LogInLogOutTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BookmarksTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PriceFilterTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for E-katalog</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for E-katalog</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_E-katalog');
+function tableData_E-katalog() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bookmarksTest')
+data.setCell(0, 2, 'BookmarksTest')
+data.setCell(0, 3, 21910);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'priceFilterTest')
+data.setCell(1, 2, 'PriceFilterTest')
+data.setCell(1, 3, 7970);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logInLogOutTest')
+data.setCell(2, 2, 'LogInLogOutTest')
+data.setCell(2, 3, 3043);
+window.suiteTableData['E-katalog']= { tableData: data, tableDiv: 'times-div-E-katalog'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-E-katalog">
+              </div> <!-- times-div-E-katalog -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for E-katalog</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-E-katalog" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LogInLogOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInLogOutTest(TestNg, qwerqwer123)</span>
+                <span class="method-start">13064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16152 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BookmarksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookmarksTest(TestNg, qwerqwer123, Sony HDR-AZ1VW)</span>
+                <span class="method-start">22446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44360 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PriceFilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">priceFilterTest(2000)</span>
+                <span class="method-start">52278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60269 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "4f3d0fdaca52658714e6337c74f507e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a974837659d04e9",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'maxPrice' is required by @Test on method priceFilterTest but has not been marked @Optional or defined\n",
+      "time" : {
+        "start" : 1522958832210,
+        "stop" : 1522958832211,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9ddb7269e49f5e9b8bf5e2bf0cbb96fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12de644cb0950c6d",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'login' is required by @Test on method bookmarksTest but has not been marked @Optional or defined\n",
+      "time" : {
+        "start" : 1522958832007,
+        "stop" : 1522958832031,
+        "duration" : 24
+      }
+    } ]
+  },
+  "2be3954e1ecadb1789778b3b93d06c0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f8ac94598402fa3",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'login' is required by @Test on method logInLogOutTest but has not been marked @Optional or defined\n",
+      "time" : {
+        "start" : 1522958832203,
+        "stop" : 1522958832204,
+        "duration" : 1
+      }
+    } ]
+  },
+  "bf2fc907176cab928f8dd676203a4ec7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a9a3fa11bcdd944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522959088287,
+        "stop" : 1522959092278,
+        "duration" : 3991
+      }
+    } ]
+  },
+  "92b98a7336b1844dbc96f18c8f5bda2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ff35e544c9ee7c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522959121477,
+        "stop" : 1522959143314,
+        "duration" : 21837
+      }
+    } ]
+  }
+}

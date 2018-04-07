@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="64.635" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/masha/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/173.4674.33/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Samara"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-9-oracle/lib"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.5 clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/home/masha/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/173.4674.33/plugins/maven/lib/maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/masha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-9-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="masha"/>
+    <property name="path.separator" value=":"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="os.version" value="4.13.0-37-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2017.3.5"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="/home/masha/testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/masha/testing"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="classworlds.conf" value="/home/masha/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/173.4674.33/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="logInLogOutTest" classname="LogInLogOutTest" time="3.041"/>
+  <testcase name="bookmarksTest" classname="BookmarksTest" time="21.913"/>
+  <testcase name="priceFilterTest" classname="PriceFilterTest" time="7.97"/>
+</testsuite>

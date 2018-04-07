@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E-katalog" verbose="10">
+    <parameter name="login" value="TestNg"/>
+    <parameter name="password" value="qwerqwer123"/>
+    
+    <test name="LogInLogOutTest" >
+        <classes>
+            <class name="LogInLogOutTest" />
+        </classes>
+    </test>
+
+    <test name="BookmarksTest">
+        <parameter name="itemName" value="Sony HDR-AZ1VW"/>
+
+        <classes>
+            <class name="BookmarksTest"/>
+        </classes>
+    </test>
+
+    <test name="PriceFilterTest">
+        <parameter name="maxPrice" value="2000"/>
+
+        <classes>
+            <class name="PriceFilterTest"/>
+        </classes>
+    </test>
+</suite>
