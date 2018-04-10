@@ -85,10 +85,8 @@ public class BookmarksTest extends TestBase {
         By bookmarksBtn = By.id("bar_bm_marked");
         this.click(bookmarksBtn);
 
-        WebElement item = getDriver().findElement(By.partialLinkText(itemName));
-
         try {
-            wait.until(ExpectedConditions.visibilityOf(item));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText(itemName)));
         } catch (TimeoutException|ElementNotFoundException e) {
             throw new AssertionError("Item is not found in bookmarks");
         }
@@ -99,7 +97,7 @@ public class BookmarksTest extends TestBase {
     }
 
     @Test
-    @Description("Добавление товара в закладки и история посещений")
+    @Description("Добавление товара {2} в закладки и история посещений")
     @Parameters({"login", "password", "itemName"})
     public void bookmarksTest(String login, String password, String itemName) {
         this.logIn(login, password);

@@ -31,9 +31,8 @@ public class TestBase {
 
     @Step("Вход в аккаунт. Логин: {0}, пароль: {1}")
     void logIn(String login, String password) {
-        final By loginBtnSelector = By.cssSelector("[jid=\"mui_user_login_window\"]");
-        WebElement loginBtn = getDriver().findElement(loginBtnSelector);
-        loginBtn.click();
+        final By loginBtn = By.cssSelector("[jid=\"mui_user_login_window\"]");
+        this.click(loginBtn);
 
         final WebElement loginField = getDriver().findElement(By.cssSelector("#mui_user_login_window_avt input[name=\"l_\"]"));
         final WebElement passwordField = getDriver().findElement(By.cssSelector("#mui_user_login_window_avt input[name=\"pw_\"]"));
@@ -41,8 +40,8 @@ public class TestBase {
         loginField.sendKeys(login);
         passwordField.sendKeys(password);
 
-        final WebElement loginButton = getDriver().findElement(By.cssSelector("#mui_user_login_window_avt input[type=\"submit\"]"));
-        loginButton.click();
+        final By loginButton = By.cssSelector("#mui_user_login_window_avt input[type=\"submit\"]");
+        this.click(loginButton);
 
         final By loginSelector = By.cssSelector("#mui_user_login_row .info-nick");
 
@@ -58,9 +57,8 @@ public class TestBase {
 
     @Step("Выход из аккаунта")
     void logOut() {
-        final WebElement logoutButton = getDriver().findElement(By.cssSelector("#mui_user_login_row .ib"));
-        this.scrollIntoView(logoutButton);
-        logoutButton.click();
+        final By logoutButton = By.cssSelector("#mui_user_login_row .ib");
+        this.click(logoutButton);
 
         By loginBtnSelector = By.cssSelector("[jid=\"mui_user_login_window\"]");
 
@@ -87,10 +85,18 @@ public class TestBase {
                         .click(element)
                         .perform();
 
+                //highlight element
+                ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid red'; " +
+                        "arguments[0].style.color='red'", element);
+
+                TestListener.saveScreenshotPNG(driver);
+
+                ((JavascriptExecutor) driver).executeScript("arguments[0].style.border=''; " +
+                        "arguments[0].style.color=''", element);
+
                 break;
             } catch (StaleElementReferenceException exception) {
                 System.err.println("Failed to click element, " + (i + 1) + " tries total.");
-                exception.printStackTrace();
             }
         }
     }

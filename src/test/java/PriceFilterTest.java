@@ -27,13 +27,13 @@ public class PriceFilterTest extends TestBase {
 
         priceUpperLimitField.sendKeys(String.valueOf(maxPrice));
 
-        By showModels = By.cssSelector("a.show-models");
+        By showModels = By.className("show-models");
         this.click(showModels);
     }
 
     @Step("Проверка цен товаров в выдаче (до {0} рублей)")
     private void checkPrices(int maxPrice) {
-        By lowPrice = By.cssSelector(".model-price-range > a > span");
+        By lowPrice = By.cssSelector(".model-price-range > a > span:first-child");
 
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(lowPrice));
